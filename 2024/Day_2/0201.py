@@ -15,7 +15,7 @@ for l in list:
     for i in range(0, len(l)-1):
         difference = int(l[i])-int(l[i+1])
         
-        if difference < 0:
+        if difference > 0:
             increase = True
         else:
             increase = False
